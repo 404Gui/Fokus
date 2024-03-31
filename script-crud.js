@@ -11,7 +11,7 @@ tarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
 
 
 function atualizarTarefa() {
-    localStorage.setItem('tarefas', JSON.stringify(tarefas))
+    localStorage.setItem('tarefas', JSON.stringify(tarefas));
 
 }
 
